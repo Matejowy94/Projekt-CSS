@@ -1,7 +1,7 @@
 *{ 
     margin: 0;
     padding: 0;
-    background-color: yellow;
+    background-color: rgb(99, 201, 179);
 }
 
 ul{
@@ -16,7 +16,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: black}
+    color: rgb(245, 245, 245)}
 
 nav{
     border-bottom: 1px solid black;
