@@ -1,0 +1,31 @@
+*{ 
+    margin: 0;
+    padding: 0;}
+
+ul{
+    list-style: none;
+
+}
+li{
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    color: black}
+
+nav{
+    border-bottom: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul {    display: flex;
+        justify-content: flex-end;}
+}
+
+li:hover {
+    background-color: blue;
+    font-weight: bold;
+}
